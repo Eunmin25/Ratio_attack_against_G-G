@@ -1,0 +1,10 @@
+[DEBUG] S S^T (SSt) preview (first 8x8):
+           1           0           0           0           0           0           0           0
+           0           1           0           0           0           0           0           0
+           0           0           1           0           0           0           0           0
+           0           0           0           1           0           0           0           0
+           0           0           0           0           1           0           0           0
+           0           0           0           0           0           1           0           0
+           0           0           0           0           0           0           1           0
+           0           0           0           0           0           0           0           1
+[GG_KLEIN] sigma = sqrt(sigma2) (fixed)

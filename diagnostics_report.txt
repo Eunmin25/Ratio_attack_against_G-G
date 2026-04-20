@@ -1,0 +1,84 @@
+=== Ratio Diagnostics (Checks 1~6) ===
+
+[1] z00 tail check
+samples: 4894
+abs_z00_q10: 2.0
+abs_z00_q05: 1.0
+abs_z00_q01: 1.0
+frac_le_q10: 0.10788720882713526
+frac_le_q05: 0.0551695954229669
+frac_le_q01: 0.0551695954229669
+
+[2] mean vs median instability (top 10 by abs gap, all pairs)
+(i=3,j=3,s=-1) n=4894 mean=-0.187202 median=0 abs_gap=0.187202
+(i=2,j=8,s=1) n=4894 mean=0.148712 median=-0 abs_gap=0.148712
+(i=1,j=14,s=-1) n=4894 mean=-0.138971 median=0 abs_gap=0.138971
+(i=6,j=14,s=0) n=4894 mean=0.133118 median=0 abs_gap=0.133118
+(i=4,j=13,s=-1) n=4894 mean=0.131161 median=0 abs_gap=0.131161
+(i=2,j=12,s=-1) n=4894 mean=-0.130815 median=-0 abs_gap=0.130815
+(i=6,j=2,s=-1) n=4894 mean=-0.122376 median=0 abs_gap=0.122376
+(i=0,j=13,s=0) n=4894 mean=0.11449 median=0 abs_gap=0.11449
+(i=6,j=8,s=-1) n=4894 mean=0.0532343 median=-0.0571429 abs_gap=0.110377
+(i=3,j=2,s=0) n=4894 mean=0.109749 median=0 abs_gap=0.109749
+
+[2-1] mean vs median instability (top 10 by abs gap, s!=0)
+(i=3,j=3,s=-1) n=4894 mean=-0.187202 median=0 abs_gap=0.187202
+(i=2,j=8,s=1) n=4894 mean=0.148712 median=-0 abs_gap=0.148712
+(i=1,j=14,s=-1) n=4894 mean=-0.138971 median=0 abs_gap=0.138971
+(i=4,j=13,s=-1) n=4894 mean=0.131161 median=0 abs_gap=0.131161
+(i=2,j=12,s=-1) n=4894 mean=-0.130815 median=-0 abs_gap=0.130815
+(i=6,j=2,s=-1) n=4894 mean=-0.122376 median=0 abs_gap=0.122376
+(i=6,j=8,s=-1) n=4894 mean=0.0532343 median=-0.0571429 abs_gap=0.110377
+(i=4,j=6,s=-1) n=4894 mean=0.107927 median=0 abs_gap=0.107927
+(i=4,j=4,s=-1) n=4894 mean=0.105153 median=0 abs_gap=0.105153
+(i=3,j=12,s=1) n=4894 mean=0.102399 median=0 abs_gap=0.102399
+
+[3] alpha_ij(center) vs alpha_hat (top 10 by |error|, s!=0)
+(i=3,j=3,s=-1) alpha_ij=0.187202 alpha_hat=0.0131579 center_error=0.174044 in_range=1
+(i=2,j=4,s=-1) alpha_ij=0.158309 alpha_hat=0.0131579 center_error=0.145151 in_range=1
+(i=5,j=6,s=1) alpha_ij=0.158016 alpha_hat=0.0131579 center_error=0.144858 in_range=1
+(i=4,j=13,s=-1) alpha_ij=-0.131161 alpha_hat=0.0131579 center_error=-0.144319 in_range=1
+(i=2,j=8,s=1) alpha_ij=0.148712 alpha_hat=0.0131579 center_error=0.135554 in_range=1
+(i=1,j=14,s=-1) alpha_ij=0.138971 alpha_hat=0.0131579 center_error=0.125813 in_range=1
+(i=4,j=6,s=-1) alpha_ij=-0.107927 alpha_hat=0.0131579 center_error=-0.121085 in_range=1
+(i=4,j=4,s=-1) alpha_ij=-0.105153 alpha_hat=0.0131579 center_error=-0.118311 in_range=1
+(i=2,j=12,s=-1) alpha_ij=0.130815 alpha_hat=0.0131579 center_error=0.117657 in_range=1
+(i=2,j=10,s=1) alpha_ij=-0.101802 alpha_hat=0.0131579 center_error=-0.11496 in_range=1
+
+[4] y covariance check
+No parsed result (see GG_klein_check output manually)
+
+[5] truncation event rate (top 10 worst by hit_L)
+(i=1,j=0,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=1,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=3,s=1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=5,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=9,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=10,s=1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=11,s=1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=12,s=1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=13,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=14,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+
+[5-1] truncation event rate (top 10 worst by hit_L, s!=0)
+(i=1,j=0,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=1,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=3,s=1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=5,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=9,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=10,s=1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=11,s=1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=12,s=1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=13,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+(i=1,j=14,s=-1) hit_L=1.0000 hit_half_alpha=0.0000 n=4894
+
+[6] z component decomposition check
+n: 5000
+num_var_y: 226.10667537507499
+num_var_w: 43.04894062812562
+num_var_z: 264.7706781356271
+num_cov_y_w: -2.192468933786758
+den_var_y: 229.5591677935587
+den_var_w: 4.04975199039808
+den_var_z: 232.7410627725545
+den_cov_y_w: -0.4339285057011404

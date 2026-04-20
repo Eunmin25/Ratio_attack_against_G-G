@@ -1,0 +1,12 @@
+[keygen] attempt=1, sigma1(rot(s))=11.3933, threshold=9.89949, sigma_base=14, sigma_u=1, rule=sigma >= sqrt(2)*sigma_u*sigma1
+[keygen] attempt=2, sigma1(rot(s))=9.53414, threshold=9.89949, sigma_base=14, sigma_u=1, rule=sigma >= sqrt(2)*sigma_u*sigma1
+[DEBUG] S S^T (SSt) preview (first 8x8):
+           1           0           0           0           0           0           0           0
+           0           1           0           0           0           0           0           0
+           0           0           1           0           0           0           0           0
+           0           0           0           1           0           0           0           0
+           0           0           0           0           1           0           0           0
+           0           0           0           0           0           1           0           0
+           0           0           0           0           0           0           1           0
+           0           0           0           0           0           0           0           1
+[GG_KLEIN] sigma = sqrt(sigma2) (fixed)
